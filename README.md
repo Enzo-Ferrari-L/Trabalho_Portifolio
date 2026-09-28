@@ -1,4 +1,4 @@
-💻 Portfólio Web - Desenvolvedor Web
+ Portfólio Web - Desenvolvedor Web
 
 ##  Sobre o Projeto
 
