@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Enzo Ferrari Lima - Portfólio / Currículo Web</title>
+    <style>
+        body { background-color: #f0f0f0; }
+        table { border-collapse: collapse; margin: 10px 0 15px; }
+        table, th, td { border: 1px solid #000; padding: 8px 12px; }
+        th { text-align: center; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Enzo Ferrari Lima - Desenvolvedor Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <img src="Imagens/Foto_Trabalho_Portifolio.png" alt="Foto de perfil de Enzo Ferrari Lima" width="150" height="150">
+            <p>Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI.</p>
+            <p><em>Tenho conhecimento em HTML, CSS e estou aprendendo JavaScript.</em></p>
+            <p><strong>Minhas Habilidades:</strong></p>
+            <ul>
+                <li>HTML5 Semântico</li>
+                <li>CSS3 e Responsividade</li>
+                <li>Formulários e Validação</li>
+                <li>Estruturação de Dados</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Tecnologias</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GameZone Retrô</td>
+                        <td>HTML, CSS, JavaScript</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/Enzo-Ferrari-L/Trabalho_GameZone_Retro" target="_blank">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Verificador de Maioridade</td>
+                        <td>HTML, CSS, JavaScript</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/Enzo-Ferrari-L/Verificador-_de_Maioridade" target="_blank">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Atividade LOPAL Flowgorithm</td>
+                        <td>Flowgorithm, Lógica de Programação</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/Enzo-Ferrari-L/ATIDADE1_LOPAL-Flowgorithm-" target="_blank">Ver Projeto</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </section>
+        <hr>
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Dados do Contato</legend>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="assunto">Assunto:</label><br>
+                    <select id="assunto" name="assunto">
+                        <option value="oportunidade">Oportunidade de Trabalho</option>
+                        <option value="duvida">Dúvidas / Suporte</option>
+                        <option value="outro">Outro</option>
+                    </select><br><br>
+
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" cols="30" required></textarea><br><br>
+
+                    <button type="submit">Enviar Mensagem</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2026 Enzo Ferrari Lima. Desenvolvido durante o curso do SENAI.</p>
+        <p>
+            <a href="mailto:enzoferrari375@gmail.com">enzoferrari375@gmail.com</a> | 
+            <a href="tel:11994654713">(11) 99465-4713</a>
+        </p>
+    </footer>
+</body>
+</html>
